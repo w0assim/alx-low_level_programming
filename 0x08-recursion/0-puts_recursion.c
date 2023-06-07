@@ -8,9 +8,9 @@
 */
 
 /**
- *_puts_recursion for printing strings
- *@s: variable-> string
- *return: void
+*_puts_recursion for printing strings
+*@s: variable-> string
+*return: void
 */
 
 
