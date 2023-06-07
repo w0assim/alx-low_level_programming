@@ -7,6 +7,12 @@
 *then adding new line
 */
 
+/**
+ * _puts_recursion for printing strings
+ *  @s: variable-> string
+ *  return: void
+ */
+
 
 void _puts_recursion(char *s)
 {
