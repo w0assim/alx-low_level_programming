@@ -25,7 +25,7 @@ dog_t *new_dog(char *name, float age, char *owner)
 		len_name++;
 		c++;
 	}
-	c=owner[0];
+	c = owner[0];
 	while (c != '\0')
 	{
 		len_owner++;
@@ -34,8 +34,8 @@ dog_t *new_dog(char *name, float age, char *owner)
 	
 	char stored_name[len_name];
 	char stored_owner[len_owner];
-	strcpy(name, stored_name);
-	strcpy(owner, stored_owner);
+	strcpy(stored_name, name);
+	strcpy(stored_owner, owner);
 
 	if (my_dog != NULL)
 	{
