@@ -1,8 +1,7 @@
 /**
- *
- *
- *
- *
+ *print_dog - dog print
+ *Return: void
+ *@d: dog
  */
 
 void print_dog(struct dog *d)
