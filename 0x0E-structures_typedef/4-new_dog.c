@@ -1,3 +1,5 @@
+#include "dog.h"
+
 /**
  *new_dog - create dog
  *@name: name of dog
@@ -5,6 +7,7 @@
  *@owner: dog owner
  *Return: type dog
  */
+
 
 dog_t *new_dog(char *name, float age, char *owner)
 {
