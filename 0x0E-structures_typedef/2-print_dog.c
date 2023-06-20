@@ -1,4 +1,4 @@
-#include < stdio.h >
+#include <stdio.h>
 /**
  *print_dog - dog print
  *Return: void
