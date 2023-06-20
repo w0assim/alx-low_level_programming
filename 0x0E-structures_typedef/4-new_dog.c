@@ -1,5 +1,5 @@
 #include "dog.h"
-
+#include <stdio.h>
 /**
  *new_dog - create dog
  *@name: name of dog
@@ -12,7 +12,7 @@
 dog_t *new_dog(char *name, float age, char *owner)
 {
 	dog_t dog;
-	dog_t *my_dog=dog;
+	dog_t *my_dog = &dog;
 	
 	if (my_dog != NULL)
 	{
