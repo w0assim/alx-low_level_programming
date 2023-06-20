@@ -1,3 +1,4 @@
+#include "dog.h"
 /**
  *print_dog - dog print
  *Return: void
