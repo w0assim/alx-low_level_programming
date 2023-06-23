@@ -1,7 +1,6 @@
 #include "dog.h"
 #include <stdio.h>
 #include <string.h>
-#include <stdlib.h>
 
 /**
  *new_dog - create dog
@@ -39,7 +38,7 @@ dog_t *new_dog(char *name, float age, char *owner)
 
 	if (my_dog != NULL)
 	{
-		my_dog->name = &stored_ name;
+		my_dog->name = &stored_name;
 		my_dog->age = age;
 		my_dog->owner = &stored_owner;
 	}
