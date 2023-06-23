@@ -8,10 +8,10 @@
 int main(void)
 {
 	int x, y;
-	
-	y = '0';
+
 	for (x = '0'; x < '9'; x++)
 	{
+		y = 1 + x; 
 		if (y == x)
 		{
 			y++;
