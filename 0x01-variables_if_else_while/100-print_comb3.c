@@ -11,7 +11,7 @@ int main(void)
 
 	for (x = '0'; x < '9'; x++)
 	{
-		y = 1 + x; 
+		y = 1 + x;
 		if (y == x)
 		{
 			y++;
@@ -20,8 +20,11 @@ int main(void)
 		{
 			putchar(x);
 			putchar(y);
-			putchar(',');
-			putchar(' ');
+			if (x != '8' && y != '9')
+			{
+				putchar(',');
+				putchar(' ');
+			}
 			y++;
 		}
 	}
