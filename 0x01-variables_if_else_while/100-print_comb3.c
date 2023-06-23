@@ -10,13 +10,13 @@ int main(void)
 	int x, y;
 	
 	y = '0';
-	for (x = 0; x < 9; x++)
+	for (x = '0'; x < '9'; x++)
 	{
 		if (y == x)
 		{
 			y++;
 		}
-		while (y < 9 && y != x)
+		while (y < '9' && y != x)
 		{
 			putchar(x);
 			putchar(y);
