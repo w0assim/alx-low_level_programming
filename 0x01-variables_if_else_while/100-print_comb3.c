@@ -16,7 +16,7 @@ int main(void)
 		{
 			y++;
 		}
-		while (y < '9' && y != x)
+		while (y < '9' + 1 && y != x)
 		{
 			putchar(x);
 			putchar(y);
