@@ -13,11 +13,14 @@ int main(void)
 	for (i = 0; i < 9; i++)
 	{
 		putchar(x);
-		putchar(',');
-		putchar(' ');
+		if (x != '9')
+		{
+			putchar(',');
+			putchar(' ');
+		}
 		x++;
 	}
-	putchar(x);
+	putchar('\n');
 	return (0);
 }
 
