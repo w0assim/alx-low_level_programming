@@ -14,13 +14,13 @@ int main(void)
 		for (b = '0'; b <= '9'; b++)
 		{
 			c = a;
+			d = b;
+			if (a == c && b == d)
+			{
+				d = b + 1;
+			}
 			while (c < '9' + 1)
 			{
-				d = b;
-				if (a == c && b == d)
-				{
-					d = b + 1;
-				}
 				while (d < '9' + 1)
 				{
 					putchar(a);
@@ -35,6 +35,7 @@ int main(void)
 					}
 					d++;
 				}
+				d = 0;
 				c++;
 			}
 		}
