@@ -14,9 +14,9 @@ int main(void)
 		for (b = '0'; b <= '9'; b++)
 		{
 			c = a;
-			d = b + 1;
 			while (c < '9' + 1)
 			{
+				d = b + 1;
 				while (d < '9' + 1)
 				{
 					putchar(a);
