@@ -29,9 +29,9 @@ int main(void)
 						putchar(',');
 						putchar(' ');
 					}
-					c++;
+					d++;
 				}
-				d++;
+				c++;
 			}
 		}
 	}
