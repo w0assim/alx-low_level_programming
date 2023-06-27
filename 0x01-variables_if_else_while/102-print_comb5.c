@@ -15,9 +15,9 @@ int main(void)
 		{
 			c = a;
 			d = b + 1;
-			while (c != '9' + 1)
+			while (c < '9' + 1)
 			{
-				while (d != '9' + 1)
+				while (d < '9' + 1)
 				{
 					putchar(a);
 					putchar(b);
