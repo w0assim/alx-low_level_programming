@@ -21,13 +21,13 @@ int main(void)
 				{
 					putchar(a);
 					putchar(b);
-					putchar(" ");
+					putchar(' ');
 					putchar(c);
 					putchar(d);
 					if (c != 9 || d != 9)
 					{
-						putchar(",");
-						putchar(" ");
+						putchar(',');
+						putchar(' ');
 					}
 					c++;
 				}
