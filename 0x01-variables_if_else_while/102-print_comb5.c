@@ -16,7 +16,11 @@ int main(void)
 			c = a;
 			while (c < '9' + 1)
 			{
-				d = b + 1;
+				d = b;
+				if (a == c && b == d)
+				{
+					d = b + 1;
+				}
 				while (d < '9' + 1)
 				{
 					putchar(a);
