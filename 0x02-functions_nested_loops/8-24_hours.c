@@ -25,7 +25,10 @@ void jack_bauer(void)
 					_putchar(':');
 					_putchar(c);
 					_putchar(d);
-					_putchar('\n');
+					if (a != '2' || b != '3' || c != '5' || d != '9')
+					{
+						_putchar('\n');
+					}
 					d++;
 				}
 				c++;
