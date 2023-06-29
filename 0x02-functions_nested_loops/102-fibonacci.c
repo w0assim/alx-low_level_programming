@@ -7,7 +7,7 @@
 
 int main(void)
 {
-	int cpt, fib1, fib2;
+	long int cpt, fib1, fib2;
 
 	cpt = 0;
 	fib1 = 0;
