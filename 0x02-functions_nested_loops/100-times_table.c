@@ -2,7 +2,7 @@
 
 /**
  * print_times_table -time table
- * @n: n table
+ * @n: table
  */
 
 void print_times_table(int n)
@@ -15,47 +15,29 @@ void print_times_table(int n)
 	}
 	for (x = 0; x < n + 1; x++)
 	{
+		_putchar('0');
 		for (y = 0; y < n + 1; y++)
 		{
 			z = x * y;
-			if (y == 0)
-			{
-				_putchar('0');
-				_putchar(',');
-				_putchar(' ');
-			}
-			else if (z >= 0 && z < 10)
+			_putchar(',');
+			_putchar(' ');
+			if (z < 10)
 			{
 				_putchar(' ');
 				_putchar(' ');
 				_putchar('0' + z);
-				if (y != n)
-				{
-					_putchar(',');
-					_putchar(' ');
-				}
 			}
-			else if (z > 9 && z < 100)
+			else if (z < 100)
 			{
 				_putchar(' ');
 				_putchar('0' + z / 10);
 				_putchar('0' + z % 10);
-				if (y != n)
-				{
-					_putchar(',');
-					_putchar(' ');
-				}
 			}
 			else
 			{
 				_putchar('0' + (z / 10) / 10);
 				_putchar('0' + (z / 10) % 10);
-				_putchar ('0' + z % 10);
-				if (y != n)
-				{
-					_putchar(',');
-					_putchar(' ');
-				}
+				_putchar('0' + z % 10);
 			}
 		}
 		_putchar('\n');
