@@ -18,14 +18,14 @@ int main(void)
 		cpt++;
 		fib1 += fib2;
 		fib2 += fib1;
-		printf("%Lf, ", fib1);
+		printf("%.0Lf, ", fib1);
 		if (cpt == 98)
 		{
-			printf("%Lf\n", fib2);
+			printf("%.0Lf\n", fib2);
 		}
 		else
 		{
-			printf("%Lf, ", fib2);
+			printf("%.0Lf, ", fib2);
 		}
 	}
 	return (0);
