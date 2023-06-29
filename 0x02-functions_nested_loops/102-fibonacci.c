@@ -17,15 +17,15 @@ int main(void)
 		cpt++;
 		cpt++;
 		fib1 += fib2;
-		printf("%d, ", fib1);
+		printf("%ld, ", fib1);
 		fib2 += fib1;
 		if (cpt != 50)
 		{
-			printf("%d, ", fib2);
+			printf("%ld, ", fib2);
 		}
 		else
 		{
-			printf("%d\n", fib2);
+			printf("%ld\n", fib2);
 		}
 	}
 	return (0);
