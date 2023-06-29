@@ -1,7 +1,7 @@
 #include <stdio.h>
 
-/*
- * main -,m
+/**
+ * main -,main test
  * Return: 0
  * @argc: nbr of arg
  * @argv: array of arg
