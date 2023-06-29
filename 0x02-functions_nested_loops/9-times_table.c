@@ -15,22 +15,22 @@ void times_table(void)
 			z = x * y;
 			if (z < 10)
 			{
-				putchar('0' + z);
-				putchar(',');
-				putchar(' ');
-				putchar(' ');
+				_putchar('0' + z);
+				_putchar(',');
+				_putchar(' ');
+				_putchar(' ');
 			}
 			else
 			{
-				putchar('0' + (z / 10));
-				putchar('0' + (z % 10));
-				putchar(',');
-				putchar(' ');
-				putchar(' ');
+				_putchar('0' + (z / 10));
+				_putchar('0' + (z % 10));
+				_putchar(',');
+				_putchar(' ');
+				_putchar(' ');
 			}
-			putchar('\n');
+			_putchar('\n');
 		}
 	}
-	putchar('\n');
+	_putchar('\n');
 }
 
