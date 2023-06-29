@@ -22,8 +22,8 @@ void times_table(void)
 			}
 			else
 			{
-				putchar('0' + z / 10);
-				putchar('0' + z % 10);
+				putchar('0' + (z / 10));
+				putchar('0' + (z % 10));
 				putchar(',');
 				putchar(' ');
 				putchar(' ');
