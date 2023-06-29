@@ -18,13 +18,13 @@ void print_times_table(int n)
 		for (y = 0; y < n + 1; y++)
 		{
 			z = x * y;
-			if (y ==0)
+			if (y == 0)
 			{
 				_putchar('0');
 				_putchar(',');
 				_putchar(' ');
 			}
-			else if (z > 0 && z < 10)
+			else if (z >= 0 && z < 10)
 			{
 				_putchar(' ');
 				_putchar(' ');
