@@ -2,9 +2,10 @@
 
 /**
  * main - test
+ *Return: int
  */
 
-void main(void)
+int main(void)
 {
 	int sum, nbr;
 
@@ -19,5 +20,6 @@ void main(void)
 		nbr++;
 	}
 	printf("%d\n", sum);
+	return (0);
 }
 
