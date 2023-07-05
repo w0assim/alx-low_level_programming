@@ -65,7 +65,7 @@ void uti(char **words, char *str)
 
 		if (i > 0 && str[i] == ' ' && str[i - 1] != ' ')
 		{
-			create_word(words, str, start, i, j);
+			cree(words, str, start, i, j);
 			j++;
 			flag = 0;
 		}
@@ -74,7 +74,7 @@ void uti(char **words, char *str)
 	}
 
 	if (flag == 1)
-		create_word(words, str, start, i, j);
+		cree(words, str, start, i, j);
 }
 
 /**
