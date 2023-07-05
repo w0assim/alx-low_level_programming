@@ -3,9 +3,9 @@
 
 /**
  * free_listint -fre list
- * @h: head
+ * @head: head
  * Retun: int
- *//
+ */
 
 void free_listint(listint_t *head)
 {
