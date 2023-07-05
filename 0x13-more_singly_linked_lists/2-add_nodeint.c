@@ -2,8 +2,7 @@
 #include <stdlib.h>
 /**
  * add_nodeint -add note
- *
- * @h: head
+ * @head: head
  * @n: nb
  * Return: int
  */
