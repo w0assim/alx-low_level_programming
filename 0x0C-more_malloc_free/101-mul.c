@@ -36,14 +36,14 @@ void pprint(char *str, int l)
  * Return: ptr
  */
 
-char *mul(char n, char *nu, int n_index, char *dt, int _idx)
+char *multiplication(char n, char *nu, int n_index, char *dt, int _idx)
 {
 	int j, k, mul, mulrem, add, addrem;
 
 	mulrem = addrem = 0;
 	for (j = n_index, k = _idx; j >= 0; j--, k--)
 	{
-		mul = (n - '0') * (nm[j] - '0') + mulrem;
+		mul = (n - '0') * (nu[j] - '0') + mulrem;
 		mulrem = mul / 10;
 		add = (dt[k] - '0') + (mul % 10) + addrem;
 		addrem = add / 10;
@@ -59,7 +59,7 @@ char *mul(char n, char *nu, int n_index, char *dt, int _idx)
 	{
 		return (NULL);
 	}
-	return (dest);
+	return (dt);
 }
 
 /**
@@ -84,13 +84,13 @@ int howmanydigits(char **tty)
 }
 
 /**
- * _start - initi
+ * ssstart - initi
  * @str: sting
  * @_1: sdlf
  * Return: void
  */
 
-void _start(char *str, int _1)
+void ssstart(char *str, int _1)
 {
 	int i;
 
@@ -132,7 +132,7 @@ int main(int argc, char *argv[])
 			_putchar(e[ti]);
 		exit(98);
 	}
-	_start(a, ln - 1);
+	ssstart(a, ln - 1);
 	for (ti = l2 - 1, i = 0; ti >= 0; ti--, i++)
 	{
 		t = multiplication(argv[2][ti], argv[1], l1 - 1, a, (ln - 2) - i);
@@ -144,7 +144,7 @@ int main(int argc, char *argv[])
 			exit(98);
 		}
 	}
-	_print(a, ln - 1);
+	pprint(a, ln - 1);
 	return (0);
 }
 

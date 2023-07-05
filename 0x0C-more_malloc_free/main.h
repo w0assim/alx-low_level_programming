@@ -1,10 +1,10 @@
 #ifndef main_h
 #define main_h
 
-void _print(char *str, int l);
-char *mul(char n, char *num, int num_index, char *dest, int dest_index);
-int check_for_digits(char **av);
-void init(char *str, int l);
+void pprint(char *str, int l);
+char *multiplication(char n, char *nu, int n_index, char *dt, int _idx);
+int howmanydigits(char **tty);
+void ssstart(char *str, int l);
 #include <stdio.h>
 #include <stdlib.h>
 int _putchar(char c);
