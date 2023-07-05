@@ -5,7 +5,7 @@
  * alloc_grid -ska
  * @width: widtgh
  * @height: heog
- * Returb: int
+ * Return: int
  */
 
 int **alloc_grid(int width, int height)
