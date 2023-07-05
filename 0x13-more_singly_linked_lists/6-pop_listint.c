@@ -3,7 +3,7 @@
 
 /**
  * pop_listint -pop
- * @h: head
+ * @head: head
  * Return: none
  */
 

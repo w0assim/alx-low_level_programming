@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
- * get_nodeint_at_index -dwkmn 
+ * get_nodeint_at_index -dwkmn
  * @head: head
  * @index: index
  * Return: list
