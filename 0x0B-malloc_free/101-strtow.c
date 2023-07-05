@@ -46,7 +46,7 @@ char **strtow(char *str)
 /**
  * uti -d.,lw
  * @words: words
- * @string: string
+ * @str: string
  * Return: void
  */
 
