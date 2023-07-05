@@ -2,7 +2,8 @@
 #include <stdlib.h>
 #include <stdio.h>
 
-const listint_t **_s(const listint_t **list, size_t size, const listint_t *new);
+const listint_t **_s(const listint_t **list, size_t size,
+		const listint_t *new);
 
 /**
  * _s -relalo
@@ -12,7 +13,8 @@ const listint_t **_s(const listint_t **list, size_t size, const listint_t *new);
  * Return: list
  */
 
-const listint_t **_s(const listint_t **list, size_t size, const listint_t *new)
+const listint_t **_s(const listint_t **list, size_t size,
+		const listint_t *new)
 {
 	const listint_t **newlist;
 	size_t i;
