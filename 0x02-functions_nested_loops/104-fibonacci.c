@@ -7,7 +7,7 @@
 
 int main(void)
 {
-	unsigned long double fib1, fib2, cpt;
+	unsigned long int fib1, fib2, cpt;
 
 	cpt = 0;
 	fib1 = 0;
