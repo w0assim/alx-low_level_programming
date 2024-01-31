@@ -84,7 +84,9 @@ int main(void)
 				printf("%ld, ", fib1);
 			}
 			else
+			{
 				fib2 += fib1; cpt++; printf("%ld, ", fib2);
+			}
 		}
 	}
 }
