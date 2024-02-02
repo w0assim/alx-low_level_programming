@@ -1,9 +1,12 @@
-#ifndef aaaa
-#define aaaa
+#ifndef main
+#define main
 #include <ctype.h>
 #include <stdlib.h>
+#include <unistd.h>
 
-int _putchar(char);
+void _putchar(char c){
+    write(1, &c, 1);
+}
 void print_alphabet(void);
 void print_alphabet_x10(void);
 int _islower(int c);

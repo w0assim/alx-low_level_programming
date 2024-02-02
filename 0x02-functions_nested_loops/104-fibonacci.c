@@ -7,7 +7,7 @@
 
 int main(void)
 {
-	unsigned long fib1, fib2, cpt, fib11, fib12, fib21, fib22, tmp;
+	unsigned long fib1, fib2, cpt, fib11, fib12, fib21, fib22;
 
 	cpt = 0;
 	fib1 = 0;
