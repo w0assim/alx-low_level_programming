@@ -1,5 +1,5 @@
-#ifndef main
-#define main
+#ifndef mainn
+#define mainn
 #include <ctype.h>
 #include <stdlib.h>
 #include <unistd.h>
