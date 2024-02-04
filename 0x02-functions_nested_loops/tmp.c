@@ -11,6 +11,8 @@
 
 int main(void)
 {
-    unsigned long i = pow(2, 64) + pow(2, 63);
-    printf("%lu", i);
+    unsigned long i =     1231231231231231234;
+    unsigned long d = i / 10000000000000000;
+    unsigned long c = i % 10000000000000000;
+    printf("%lu%lu", d, c);
 }
