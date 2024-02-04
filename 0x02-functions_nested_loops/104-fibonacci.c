@@ -11,7 +11,7 @@
 int main(void)
 {
 	unsigned long fib1=1, fib2=2, cpt=1, fib11, fib12, fib21, fib22;
-	while (cpt < 48)
+	while (cpt <= 48)
 	{
 		while(fib1 < 1000000000000000000 && fib2 < 1000000000000000000)
 		{
@@ -24,7 +24,7 @@ int main(void)
 		fib12 = fib1 % 10000000000000;
 		fib21 = fib2 / 10000000000000;
 		fib22 = fib2 % 10000000000000;
-		while (cpt < 48)
+		while (cpt <= 48)
 		{
 			printf("%lu%lu, %lu%lu, ", fib11, fib12, fib21, fib22);
 			fib11 += fib21 + ((fib12 + fib22) / 10000000000000);
