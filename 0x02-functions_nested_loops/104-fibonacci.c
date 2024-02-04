@@ -20,15 +20,15 @@ int main(void)
 			fib2 += fib1;
 			cpt ++;
 		}
-		fib11 = fib1 / 1000000000000;
-		fib12 = fib1 % 1000000000000;
-		fib21 = fib2 / 1000000000000;
-		fib22 = fib2 % 1000000000000;
+		fib11 = fib1 / 10000000000;
+		fib12 = fib1 % 10000000000;
+		fib21 = fib2 / 10000000000;
+		fib22 = fib2 % 10000000000;
 		while (cpt < 48)
 		{
 			printf("%lu%lu, %lu%lu, ", fib11, fib12, fib21, fib22);
-			fib11 += fib21 + ((fib12 + fib22) / 1000000000000);
-			fib12 = (fib12 + fib22) % 1000000000000;
+			fib11 += fib21 + ((fib12 + fib22) / 10000000000);
+			fib12 = (fib12 + fib22) % 10000000000;
 			cpt++;
 		}
 	}
