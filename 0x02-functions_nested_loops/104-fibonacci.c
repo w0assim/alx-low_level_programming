@@ -13,7 +13,7 @@ int main(void)
 	unsigned long fib1=1, fib2=2, cpt=1, fib11, fib12, fib21, fib22;
 	while (cpt < 48)
 	{
-		while(fib1 < 1000000000000000000 && fib2 < 1000000000000000000)
+		while(fib1 < 100000000000000000 && fib2 < 100000000000000000)
 		{
 			printf("%lu, %lu, ", fib1, fib2);
 			fib1 += fib2;
