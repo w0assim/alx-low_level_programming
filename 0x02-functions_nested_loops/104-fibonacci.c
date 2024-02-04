@@ -4,9 +4,10 @@
  * main - main 
  * Return: int
  */
-//18446744073709551615
-//1000000000000000000
-
+/**
+ * 18446744073709551615
+ * 1000000000000000000
+ */
 int main(void)
 {
 	unsigned long fib1=1, fib2=2, cpt=1, fib11, fib12, fib21, fib22;
