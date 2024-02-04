@@ -18,4 +18,5 @@ int main(void)
 		fib2 += fib1;
 		cpt ++;
 	}
+	return (1);
 }
