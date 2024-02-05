@@ -25,6 +25,7 @@ int main(void)
 		fib21 = fib2 / 10000000000000;
 		fib22 = fib2 % 10000000000000;
 		printf("%lu%lu, %lu%lu, ", fib11, fib12, fib21, fib22);
+		cpt++;
 		while (cpt <= 48)
 		{
 			fib11 += fib21 + ((fib12 + fib22) / 10000000000000);
