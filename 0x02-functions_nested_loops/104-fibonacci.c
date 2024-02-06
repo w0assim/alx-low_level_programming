@@ -46,6 +46,6 @@ int main(void)
 		fib22 = (fib12 + fib22) % divide;
 		cpt++;
 	}
-	printf("%lu%lu, %lu%lu", fib11, fib12, fib21, fib22);
+	printf("%lu%lu, %lu%lu\n", fib11, fib12, fib21, fib22);
 	return (1);
 }
