@@ -16,7 +16,7 @@ void more_numbers(void)
 		{
 			_putchar('\n');
 			j++;
-			i = 0;
+			i = 48;
 		}
 	}
 }
