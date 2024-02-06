@@ -47,5 +47,5 @@ int main(void)
 		cpt++;
 	}
 	printf("%lu%lu, %lu%lu\n", fib11, fib12, fib21, fib22);
-	return (1);
+	return (0);
 }
