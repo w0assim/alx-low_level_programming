@@ -1,7 +1,7 @@
 #include <ctype.h>
 
 /**
- * _isupper: check upperCASE
+ * _isupper - check upperCASE
  * @c: char to check
  */
 
