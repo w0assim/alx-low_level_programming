@@ -9,15 +9,19 @@
 void more_numbers(void)
 {
 	int i, j, y;
+
 	for (i = 48, y = 0; y < 10; i++)
 	{
-		for (j = 48; j < 53; j++)
+		for (j = 47; j < 53; j++)
 		{
 			_putchar(i);
-			if (i == 57 || j != 48)
+			if (i == 57 || j != 47)
 			{
+				if (i == 49)
+				{
+					_putchar(j);
+				}
 				i = 49;
-				_putchar(j);
 			}
 			else
 			{
