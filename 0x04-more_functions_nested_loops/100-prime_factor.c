@@ -10,7 +10,7 @@ int main(void)
 {
 	unsigned long int i, j, tmp = 0;
 
-	for (i = 612852475142; i > 0; i--)
+	for (i = 612852475142; i > 3; i--)
 	{
 		if (612852475143 % i == 0)
 		{
@@ -33,6 +33,5 @@ int main(void)
 			}
 		}
 	}
-	printf("n");
 	return (0);
 }
