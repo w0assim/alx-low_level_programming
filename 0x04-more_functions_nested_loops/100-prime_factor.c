@@ -6,7 +6,7 @@
  * Return: 0
  */
 
-void main(void)
+int main(void)
 {
 	int max = 0, i;
 
@@ -21,4 +21,5 @@ void main(void)
 		}
 	}
 	printf("%d\n", max);
+	return (0);
 }
