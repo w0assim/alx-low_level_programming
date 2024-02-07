@@ -5,6 +5,7 @@
 #include <unistd.h>
 //#include "6-print_line.c"
 #include "5-more_numbers.c"
+#include "7-print_diagonal.c"
 
 int _putchar(int c)
 {
@@ -15,5 +16,5 @@ int _putchar(int c)
 
 int main(void)
 {
-	more_numbers();
+	print_diagonal(20);
 }
