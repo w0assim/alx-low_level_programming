@@ -4,7 +4,7 @@
 #include "main.h"
 #include <unistd.h>
 //#include "6-print_line.c"
-
+#include "5-more_numbers.c"
 
 int _putchar(int c)
 {
@@ -15,5 +15,5 @@ int _putchar(int c)
 
 int main(void)
 {
-	print_line(-3);
+	more_numbers();
 }

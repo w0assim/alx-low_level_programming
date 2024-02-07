@@ -28,8 +28,9 @@ void more_numbers(void)
 				break;
 			}
 		}
-		if (j == 52)
+		if (j == 53)
 		{
+			i = 47;
 			_putchar('\n');
 			y++;
 		}
