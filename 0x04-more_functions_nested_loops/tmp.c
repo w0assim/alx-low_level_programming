@@ -20,5 +20,7 @@ int main(void)
 			test2++;
 		}
 	}
-	printf("%f", 11 %sqrt(11));
+	int x;
+	x = 11 % sqrt(11);
+	//printf("%f", 11 % sqrt(11));
 }
