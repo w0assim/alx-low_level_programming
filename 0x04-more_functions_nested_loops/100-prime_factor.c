@@ -8,18 +8,29 @@
 
 int main(void)
 {
-	int max = 0, i;
+	unsigned long int i, j, tmp = 0;
 
-	for (i = 2; i <= sqrt(612852475143); i++)
+	for (i = 612852475142; i > 0; i--)
 	{
 		if (612852475143 % i == 0)
 		{
-			if (i >= max)
+			for (j = 2; j <= sqrt(i); j++)
 			{
-				max = i;
+				if (i % j == 0)
+				{
+					tmp = 1;
+					break;
+				}
+			}
+			if (tmp == 0)
+			{
+				printf("%lu\n", i);
+				return (0);
+			}
+			else
+			{
+				tmp = 0;
 			}
 		}
 	}
-	printf("%d\n", max);
-	return (0);
 }
