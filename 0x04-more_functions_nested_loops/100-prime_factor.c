@@ -20,6 +20,7 @@ int main(void)
 			if (target == 1)
 			{
 				printf("%lu\n", i);
+				return (0);
 			}
 		}
 	}
