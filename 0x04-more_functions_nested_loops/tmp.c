@@ -1,26 +1,15 @@
-#include <stdio.h>
 #include <math.h>
+#include <stdio.h>
 
 int main(void)
 {
-	int i, j, test1 = 1, test2 = 2;
+	long int i, j;
 
-	for (i = 0; i <= 10; i++)
+	i = 612852475143;
+	
+	while (i % 3 == 0)
 	{
-		if (i == 5)
-		{
-			for (j = 0; j <= 10; j++)
-			{
-				if (j == 5)
-				{
-					break;
-				}
-				test1++;
-			}
-			test2++;
-		}
+		i /= 3;
+		printf("%ld\n", i);
 	}
-	int x;
-	x = 11 % sqrt(11);
-	//printf("%f", 11 % sqrt(11));
 }
