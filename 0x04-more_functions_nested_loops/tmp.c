@@ -1,15 +1,9 @@
 #include <math.h>
 #include <stdio.h>
+#include "101-print_number.c"
+#include "main.h"
 
 int main(void)
 {
-	long int i, j;
-
-	i = 612852475143;
-	
-	while (i % 3 == 0)
-	{
-		i /= 3;
-		printf("%ld\n", i);
-	}
+	print_number(-493823);
 }
