@@ -5,5 +5,5 @@
 
 int main(void)
 {
-	print_number(-493823);
+	print_number(-2147483647);
 }

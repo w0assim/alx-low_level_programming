@@ -1,6 +1,5 @@
 #include "main.h"
 
-
 /**
  * print_number - print a number
  * @n: nb to print
@@ -9,7 +8,7 @@
 
 void print_number(int n)
 {
-	int div;
+	int div = 10;
 
 	if (n < 0)
 	{
@@ -20,10 +19,6 @@ void print_number(int n)
 	{
 		_putchar('0' + n);
 		return;
-	}
-	for (div = 10; n / (div * 10) != 0; div *= 10)
-	{
-		continue;
 	}
 	while (1)
 	{
