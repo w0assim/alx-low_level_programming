@@ -10,7 +10,6 @@
 void print_number(int n)
 {
 	int div;
-	char c;
 
 	if (n < 0)
 	{
