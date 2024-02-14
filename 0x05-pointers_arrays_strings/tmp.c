@@ -2,11 +2,13 @@
 #include "main.h"
 #include "5-rev_string.c"
 
+
+
+
 int main(void)
 {
-	char c[] = "wassim";
+	char c[] = "";
 
-	printf("%s\n", c);
 	rev_string(c);
-	printf("\n%s\n", c);
+	printf("%s", c);
 }
