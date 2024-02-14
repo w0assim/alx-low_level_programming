@@ -17,4 +17,5 @@ void puts_half(char *str)
 	{
 		putc(str[i], stdout);
 	}
+	putc('\n', stdout);
 }
