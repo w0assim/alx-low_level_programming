@@ -13,7 +13,7 @@ void puts_half(char *str)
 {
 	int i;
 
-	for (i = ceil(strlen(str) / 2); str[i] != '\0'; i++)
+	for (i = ceil((double)strlen(str) / 2); str[i] != '\0'; i++)
 	{
 		putc(str[i], stdout);
 	}
