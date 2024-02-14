@@ -13,8 +13,8 @@ void puts2(char *str)
 
 	for (i = 0, j = 0; str[i] != '\0' && str[j] != '\0'; i += 2, j++)
 	{
-		puts(&str[i]);
+		putc(str[i], stdout);
 		j = i;
 	}
-	putc('\n', stdin);
+	putc('\n', stdout);
 }
