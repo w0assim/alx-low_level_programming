@@ -16,4 +16,5 @@ void puts2(char *str)
 		putc(str[i], stdin);
 		j = i;
 	}
+	putc('\n', stdin);
 }
