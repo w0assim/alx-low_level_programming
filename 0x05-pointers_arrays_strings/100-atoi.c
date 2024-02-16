@@ -24,9 +24,11 @@ int _atoi(char *s)
 	}
 	if (n % 2 != 0)
 	{
-		n = -1;
-		n *= atoi(&s[i]);
-		return (n);
+		if (s[i - 1] == '-')
+		{
+			return (atoi(&s[i - 1]));
+		}
+		return (-1 * atoi(&s[i]));
 	}
 	else
 	{

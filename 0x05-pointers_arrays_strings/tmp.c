@@ -4,10 +4,10 @@
 
 int main(void)
 {
-	int i = 5;
-	char *s = "oeuiw530";
+	int i;
+	char *s = "-2147483648";
 
 	
-	i = atoi("oeuiw530");
+	i = atoi(s);
 	printf("%d", i);
 }
