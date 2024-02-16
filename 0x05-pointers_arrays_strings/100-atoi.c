@@ -9,18 +9,25 @@
 
 int _atoi(char *s)
 {
-	int i, n = 1;
+	int i, n = 0;
 
-	if (atoi(s) < 0)
-	{
-		return (atoi(s));
-	}
 	for (i = 0; s[i] != '\0'; i++)
 	{
 		if (s[i] == '-')
 		{
-			n = -1;
+			n += 1;
+		}
+		if (s[i] >= '0' && s[i] <= '9')
+		{
+			break;
 		}
 	}
-	return (n * atoi(s));
+	if (n % 2 != 0)
+	{
+		return (-1 * atoi(&s[i]));
+	}
+	else
+	{
+		return (atoi(&s[i]));
+	}
 }
