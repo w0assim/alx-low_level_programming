@@ -18,5 +18,9 @@ int _atoi(char *s)
 			n = -1;
 		}
 	}
+	if (atoi(s) < 0)
+	{
+		return (atoi(s));
+	}
 	return (n * atoi(s));
 }
