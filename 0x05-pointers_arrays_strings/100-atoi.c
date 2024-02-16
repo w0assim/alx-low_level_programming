@@ -24,7 +24,9 @@ int _atoi(char *s)
 	}
 	if (n % 2 != 0)
 	{
-		return (-1 * atoi(&s[i]));
+		n = -1;
+		n *= atoi(&s[i]);
+		return (n);
 	}
 	else
 	{
