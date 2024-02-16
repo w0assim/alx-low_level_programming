@@ -1,13 +1,10 @@
 #include <stdio.h>
-#include "main.h"
-#include "5-rev_string.c"
-#include <string.h>
-#include <math.h>
-#include "7-puts_half.c"
+#include <stdlib.h>
 
 int main(void)
 {
 	int i = 5;
 
-	puts_half("hello");
+	i = atoi("530");
+	printf("%d", i);
 }
