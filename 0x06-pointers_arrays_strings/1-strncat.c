@@ -6,6 +6,7 @@
  * _strncat - concatenate n bytes
  * @dest: destination string
  * @src: source string
+ * @n: number of bytes
  * Return: concatenated string
  */
 

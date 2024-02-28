@@ -6,6 +6,7 @@
  * _strncpy - copy n bytes to string
  * @dest: destination string
  * @src: source string
+ * @n: number of bytes
  * Return: copied string
  */
 
