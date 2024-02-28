@@ -32,6 +32,11 @@ char *leet(char *s)
 		{
 			s[i] = '7';
 		}
+		else
+		{
+			i ++;
+			continue;
+		}
 		i ++;
 	}
 	return (s);
