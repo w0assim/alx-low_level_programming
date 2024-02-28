@@ -1,7 +1,9 @@
 #include "main.h"
 
 /**
- * @brief 
+ * leet - 
  * 
  */
 
+char *leet(char *)
+{}
