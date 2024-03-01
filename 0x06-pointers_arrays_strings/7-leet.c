@@ -8,36 +8,27 @@
 
 char *leet(char *s)
 {
-	int i = 0;
+	int i = 0, a[127];
 
+	a['A'] = '4';
+	a['a'] = '4';
+	a['O'] = '0';
+	a['o'] = '0';
+	a['L'] = '1';
+	a['l'] = '1';
+	a['E'] = '3';
+	a['e'] = '3';
+	a['T'] = '7';
+	a['t'] = '7';
 	while (s[i] != '\0')
 	{
-		if (s[i] == 'a' || s[i] == 'A')
+		if (s[i] == 'a' || s[i] == 'A' || s[i] == 'e' ||
+		s[i] == 'E' || s[i] == 'o' || s[i] == 'O' || s[i] == 't' || s[i] == 'T'
+		|| s[i] == 'l' || s[i] == 'L')
 		{
-			s[i] = '4';
+			s[i] = a[i];
 		}
-		else if (s[i] == 'l' || s[i] == 'L')
-		{
-			s[i] = '1';
-		}
-		else if (s[i] == 'o' || s[i] == 'O')
-		{
-			s[i] = '0';
-		}
-		else if (s[i] == 'e' || s[i] == 'E')
-		{
-			s[i] = '3';
-		}
-		else if (s[i] == 't' || s[i] == 'T')
-		{
-			s[i] = '7';
-		}
-		else
-		{
-			i ++;
-			continue;
-		}
-		i ++;
+		i++;
 	}
 	return (s);
 }
