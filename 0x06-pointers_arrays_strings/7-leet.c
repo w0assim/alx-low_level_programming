@@ -8,7 +8,8 @@
 
 char *leet(char *s)
 {
-	int i = 0, a[127];
+	int i = 0;
+	char a[127];
 
 	a['A'] = '4';
 	a['a'] = '4';
