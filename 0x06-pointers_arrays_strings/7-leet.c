@@ -1,5 +1,5 @@
 #include "main.h"
-#include <unistd.h>
+
 /**
  * leet - turn string into leet notation
  * @s: string to operate
