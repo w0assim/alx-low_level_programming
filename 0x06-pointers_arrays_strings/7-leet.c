@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <unistd.h>
 /**
  * leet - turn string into leet notation
  * @s: string to operate
@@ -8,7 +8,7 @@
 
 char *leet(char *s)
 {
-	int i = 0;
+	int i = 0, tmp;
 	char a[127];
 
 	a['A'] = '4';
@@ -27,7 +27,8 @@ char *leet(char *s)
 		s[i] == 'E' || s[i] == 'o' || s[i] == 'O' || s[i] == 't' || s[i] == 'T'
 		|| s[i] == 'l' || s[i] == 'L')
 		{
-			s[i] = a[i];
+			tmp = (int)s[i];
+			s[i] = a[tmp];
 		}
 		i++;
 	}

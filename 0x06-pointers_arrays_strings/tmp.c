@@ -6,6 +6,7 @@ int main(void)
 {
 	char *s = "helloa", *p;
 
+	printf("%s\n", s);
 	p = leet(s);
 	printf("%s\n", p);
 }
